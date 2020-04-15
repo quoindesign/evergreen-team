@@ -1,0 +1,187 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 34.59px !important;
+  }
+
+  .bar {
+    display: block;
+    height: 4px;
+    width: 24px;
+    background-color: #393132;
+    margin: 3px auto;
+  }
+
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  .button {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .middle {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  body.side-active .main-body {
+    overflow: hidden !important;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+@media (max-width: 991px) {
+  .side-active .scroll-body {
+    margin-left: 275px;
+    width: 100vw;
+    position: relative;
+  }
+}
+@media (max-width: 991px) {
+  .side-active .layerblack {
+    position: absolute;
+    z-index: 9999999999;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+  }
+}
+@media (max-width: 991px) {
+  .menu-section.active {
+    display: block !important;
+    height: 100vh;
+    padding: 100px 20px;
+    background-color: #333333;
+    position: fixed;
+    width: 275px;
+    top: 0;
+    left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .header nav ul .menu-link {
+    text-align: left;
+    margin: 5px 0;
+  }
+}
+@media (max-width: 991px) {
+  .header nav ul .menu-link:hover .submenu {
+    position: relative;
+    background-color: transparent;
+    top: 0;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 991px) {
+  .header nav ul .menu-link:hover .submenu .submenu-link {
+    text-align: left !important;
+    padding: 10px 0;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .header nav ul .menu-link:hover .submenu .submenu-link a {
+    text-transform: capitalize;
+  }
+}
+@media (max-width: 991px) {
+  .menu-section.active .menu-link a {
+    color: #ffffff !important;
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    position: relative;
+    height: 106px;
+  }
+}
+@media (max-width: 991px) {
+  .btn-close {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .btn-close {
+    position: fixed;
+    right: 0;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    left: 220px;
+    z-index: 9;
+  }
+}
+@media (max-width: 991px) {
+  .btn-close:hover {
+    opacity: 1;
+  }
+}
+@media (max-width: 991px) {
+  .btn-close:before, .btn-close:after {
+    position: absolute;
+    left: 10px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #979797;
+  }
+}
+@media (max-width: 991px) {
+  .btn-close:before {
+    transform: rotate(45deg);
+  }
+}
+@media (max-width: 991px) {
+  .btn-close:after {
+    transform: rotate(-45deg);
+  }
+}
+@media (max-width: 991px) {
+  .btn-close.active {
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+  #logo {
+    width: 200px !important;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    height: 100px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

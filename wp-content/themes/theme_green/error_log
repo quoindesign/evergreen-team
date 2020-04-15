@@ -1,0 +1,40 @@
+[02-Mar-2020 13:41:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[03-Mar-2020 13:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[04-Mar-2020 13:20:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[05-Mar-2020 03:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[05-Mar-2020 12:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[06-Mar-2020 02:46:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[07-Mar-2020 03:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[07-Mar-2020 12:22:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[08-Mar-2020 12:40:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15
+[09-Mar-2020 11:19:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/am3r9zee000f/public_html/wp-content/themes/theme_green/index.php on line 15

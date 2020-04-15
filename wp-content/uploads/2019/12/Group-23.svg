@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.72" height="98.727" viewBox="0 0 98.72 98.727">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="98.72" height="98.727" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Clip_2" data-name="Clip 2" d="M0,48.134A48.133,48.133,0,0,0,48.133,96.268h0A48.137,48.137,0,0,0,96.267,48.134h0A48.141,48.141,0,0,0,48.133,0h0A48.137,48.137,0,0,0,0,48.134Z" transform="translate(0.228 0.499)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_23" data-name="Group 23" clip-path="url(#clip-path)">
+    <g id="Group_23-2" data-name="Group 23" transform="translate(1 0.569)">
+      <g id="Group_20" data-name="Group 20" transform="translate(0 0.157)">
+        <path id="Clip_2-2" data-name="Clip 2" d="M0,48.134A48.133,48.133,0,0,0,48.133,96.268h0A48.137,48.137,0,0,0,96.267,48.134h0A48.141,48.141,0,0,0,48.133,0h0A48.137,48.137,0,0,0,0,48.134Z" transform="translate(0.228 0.499)" fill="none"/>
+        <g id="Group_20-2" data-name="Group 20" clip-path="url(#clip-path-2)">
+          <path id="Fill_1" data-name="Fill 1" d="M0,53.977H14.65V0H0Z" transform="translate(23.185 -22.6)" fill="#fff"/>
+          <path id="Stroke_3" data-name="Stroke 3" d="M0,53.977H14.65V0H0Z" transform="translate(23.185 -22.6)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          <path id="Fill_4" data-name="Fill 4" d="M0,3.106H40.134V0H0Z" transform="translate(10.443 31.371)" fill="#fff"/>
+          <path id="Stroke_5" data-name="Stroke 5" d="M0,3.106H40.134V0H0Z" transform="translate(10.443 31.371)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          <path id="Fill_6" data-name="Fill 6" d="M0,6.371H40.134V0H0Z" transform="translate(10.443 55.493)" fill="#fff"/>
+          <path id="Stroke_7" data-name="Stroke 7" d="M0,6.371H40.134V0H0Z" transform="translate(10.443 55.493)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          <path id="Fill_8" data-name="Fill 8" d="M0,27.77H39.926V0H0Z" transform="translate(10.443 61.864)" fill="#fff"/>
+          <path id="Stroke_9" data-name="Stroke 9" d="M0,27.77H39.926V0H0Z" transform="translate(10.443 61.864)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          <path id="Fill_10" data-name="Fill 10" d="M0,11.068H26.057V0H0Z" transform="translate(17.087 67.388)" fill="#424242"/>
+          <path id="Stroke_11" data-name="Stroke 11" d="M0,11.068H26.057V0H0Z" transform="translate(17.087 67.388)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.114"/>
+          <path id="Fill_12" data-name="Fill 12" d="M0,81.7H36.311V0H0Z" transform="translate(50.185 7.932)" fill="#fff"/>
+          <path id="Stroke_13" data-name="Stroke 13" d="M0,81.7H36.311V0H0Z" transform="translate(50.185 7.932)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          <g id="Group_16" data-name="Group 16" transform="translate(80 42)">
+            <path id="Fill_14" data-name="Fill 14" d="M.5,0V15.067" transform="translate(0.264 0.546)" fill="#fff"/>
+            <path id="Stroke_15" data-name="Stroke 15" d="M.5,0V15.067" transform="translate(0.264 0.546)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          </g>
+          <g id="Group_19" data-name="Group 19" transform="translate(50 66)">
+            <path id="Fill_17" data-name="Fill 17" d="M36.31.5H0" transform="translate(0.185 0.887)" fill="#fff"/>
+            <path id="Stroke_18" data-name="Stroke 18" d="M36.31.5H0" transform="translate(0.185 0.887)" fill="none" stroke="#424242" stroke-miterlimit="10" stroke-width="1.114"/>
+          </g>
+        </g>
+      </g>
+      <path id="Stroke_21" data-name="Stroke 21" d="M96.268,48.134A48.134,48.134,0,1,1,48.134,0,48.139,48.139,0,0,1,96.268,48.134Z" transform="translate(0.226 0.657)" fill="none" stroke="#ff5100" stroke-miterlimit="10" stroke-width="2.452"/>
+    </g>
+  </g>
+</svg>

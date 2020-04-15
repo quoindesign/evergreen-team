@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="29.199" height="29.2" viewBox="0 0 29.199 29.2">
+  <g id="icon" transform="translate(0.585 0.585)">
+    <path id="Fill_3" data-name="Fill 3" d="M10.631,19.891h-9.6A1.029,1.029,0,0,1,0,18.863V1.03A1.03,1.03,0,0,1,1.028,0h9.6a1.031,1.031,0,0,1,1.03,1.03V18.863A1.03,1.03,0,0,1,10.631,19.891Zm-4.8-2.4a.686.686,0,1,0,.685.687A.687.687,0,0,0,5.83,17.491ZM1.028,2.058v14.4h9.6V2.058h-9.6Z" transform="translate(8.685 4.069)" fill="#fff"/>
+    <path id="Stroke_4" data-name="Stroke 4" d="M28.03,14.015A14.015,14.015,0,1,1,14.015,0,14.016,14.016,0,0,1,28.03,14.015Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.169"/>
+  </g>
+</svg>
