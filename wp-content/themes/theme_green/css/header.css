@@ -107,7 +107,7 @@ footer {
   right: 50px;
   opacity: 1
   left: auto;
-  z-index: 9;
+  z-index: 12;
   webkit-animation: bottomup 1 5.5s linear;
   -moz-animation:bottomup 1 5.5s linear;
   -o-animation:bottomup 1 5.5s linear;

@@ -1,0 +1,411 @@
+0000.000 (0) Opened log file at time: Thu, 16 Apr 2020 18:47:49 +0000 on http://localhost:8888
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.1.12 (apache2handler, Darwin Joshuas-MacBook-Pro-2.local 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.12 mod_ssl/2.2.34 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 49.1M | 4M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 17386.4 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.015 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1586970691, seconds_ago=92178)
+0000.017 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2020-04-16 18:47:49
+0000.020 (0) Semaphore (fd, wp_options) reset to 1
+0000.022 (0) Set semaphore last lock (fd) time to 2020-04-16 18:47:49
+0000.023 (0) Semaphore lock (fd) complete
+0000.028 (0) Backup run: resumption=0, nonce=704ad676b45f, file_nonce=704ad676b45f begun at=1587062869 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1587063169) in case this run gets aborted
+0000.045 (0) Checking if we have a zip executable available
+0000.047 (0) Testing: /usr/bin/zip
+0000.058 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.059 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.062 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.063 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.074 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.085 (0) Working binary zip found: /usr/bin/zip
+0000.087 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.088 (0) Creation of backups of directories: beginning
+0000.093 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.381 (0) Total entities for the zip file: 777 directories, 5181 files (0 skipped as non-modified), 77.5 MB
+0000.396 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.407 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.421 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.436 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.450 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.451 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 5181 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.916 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: size is now: 3.10 MB
+0000.931 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 600 files added (on-disk size: 3186.2 KB)
+0000.943 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 700 files added (on-disk size: 3186.2 KB)
+0000.956 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 800 files added (on-disk size: 3186.2 KB)
+0000.968 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 900 files added (on-disk size: 3186.2 KB)
+0000.982 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1000 files added (on-disk size: 3186.2 KB)
+0000.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 5181 files batched, 501 (1002) added so far); re-opening (prior size: 3186.2 KB)
+0001.204 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: size is now: 4.30 MB
+0001.220 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1100 files added (on-disk size: 4422.5 KB)
+0001.233 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1200 files added (on-disk size: 4422.5 KB)
+0001.245 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1300 files added (on-disk size: 4422.5 KB)
+0001.257 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1400 files added (on-disk size: 4422.5 KB)
+0001.270 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1500 files added (on-disk size: 4422.5 KB)
+0001.272 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 5181 files batched, 501 (1503) added so far); re-opening (prior size: 4422.5 KB)
+0001.541 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: size is now: 5.20 MB
+0001.555 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1600 files added (on-disk size: 5345.6 KB)
+0001.567 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1700 files added (on-disk size: 5345.6 KB)
+0001.579 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1800 files added (on-disk size: 5345.6 KB)
+0001.591 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 1900 files added (on-disk size: 5345.6 KB)
+0001.603 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2000 files added (on-disk size: 5345.6 KB)
+0001.605 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 5181 files batched, 501 (2004) added so far); re-opening (prior size: 5345.6 KB)
+0001.938 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: size is now: 7.20 MB
+0001.952 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2100 files added (on-disk size: 7410.2 KB)
+0001.964 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2200 files added (on-disk size: 7410.2 KB)
+0001.977 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2300 files added (on-disk size: 7410.2 KB)
+0001.989 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2400 files added (on-disk size: 7410.2 KB)
+0002.002 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2500 files added (on-disk size: 7410.2 KB)
+0002.004 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.3 MB, 5181 files batched, 501 (2505) added so far); re-opening (prior size: 7410.2 KB)
+0002.889 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: size is now: 12.80 MB
+0002.905 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2600 files added (on-disk size: 13137.4 KB)
+0002.917 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2700 files added (on-disk size: 13137.4 KB)
+0002.929 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2800 files added (on-disk size: 13137.4 KB)
+0002.942 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 2900 files added (on-disk size: 13137.4 KB)
+0002.954 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3000 files added (on-disk size: 13137.4 KB)
+0002.956 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 5181 files batched, 501 (3006) added so far); re-opening (prior size: 13137.4 KB)
+0003.180 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3100 files added (on-disk size: 13703.7 KB)
+0003.194 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3200 files added (on-disk size: 13703.7 KB)
+0003.206 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3300 files added (on-disk size: 13703.7 KB)
+0003.220 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3400 files added (on-disk size: 13703.7 KB)
+0003.233 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3500 files added (on-disk size: 13703.7 KB)
+0003.235 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 5181 files batched, 501 (3507) added so far); re-opening (prior size: 13703.7 KB)
+0003.509 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3600 files added (on-disk size: 14753.6 KB)
+0003.524 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3700 files added (on-disk size: 14753.6 KB)
+0003.536 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3800 files added (on-disk size: 14753.6 KB)
+0003.548 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 3900 files added (on-disk size: 14753.6 KB)
+0003.562 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4000 files added (on-disk size: 14753.6 KB)
+0003.564 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 5181 files batched, 501 (4008) added so far); re-opening (prior size: 14753.6 KB)
+0004.373 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: size is now: 18.60 MB
+0004.388 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4100 files added (on-disk size: 19067.3 KB)
+0004.399 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4200 files added (on-disk size: 19067.3 KB)
+0004.411 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4300 files added (on-disk size: 19067.3 KB)
+0004.424 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4400 files added (on-disk size: 19067.3 KB)
+0004.436 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4500 files added (on-disk size: 19067.3 KB)
+0004.438 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 5181 files batched, 501 (4509) added so far); re-opening (prior size: 19067.3 KB)
+0004.852 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4600 files added (on-disk size: 21042.6 KB)
+0004.864 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4700 files added (on-disk size: 21042.6 KB)
+0004.876 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4800 files added (on-disk size: 21042.6 KB)
+0004.888 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 4900 files added (on-disk size: 21042.6 KB)
+0004.900 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 5000 files added (on-disk size: 21042.6 KB)
+0004.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 5181 files batched, 501 (5010) added so far); re-opening (prior size: 21042.6 KB)
+0005.228 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip.tmp: 5100 files added (on-disk size: 22105.9 KB)
+0006.279 (0) Created plugins zip (0) - 24658.4 KB in 6.2 s (3987.1 KB/s) (sha1: 17d9512b2ddc4cfb314e42998ddb3ad1852d9a7e, sha256: 6b4a8fe36a177bd1cba5a4bcf76490256d7a6af5ce4ebff24e515452b4060d9d)
+0006.283 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.306 (0) Total entities for the zip file: 90 directories, 635 files (0 skipped as non-modified), 53.9 MB
+0006.318 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.330 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.341 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.353 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0006.356 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 635 files batched, 418 (418) added so far); re-opening (prior size: 0 KB)
+0006.985 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: size is now: 15.50 MB
+0006.989 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.2 s, rate: 20760.5 KB/s)
+0006.992 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.25107693672, normalised_time=1.23311287216, max_time=6.99007892609, data points known=1, old_max_bytes=26214400, new_max_bytes=127552313)
+0007.003 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: 500 files added (on-disk size: 15881.5 KB)
+0007.014 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: 600 files added (on-disk size: 15881.5 KB)
+0008.255 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip.tmp: size is now: 37.60 MB
+0009.105 (0) Created themes zip (0) - 38470.4 KB in 2.8 s (13642.1 KB/s) (sha1: 6466da0f49ba15d535425f1d00e5d846c0d82166, sha256: f85c435d0ffaff095b3c2b7fcedc1ad759669db4555dce47d28e16c8f6c7cbb8)
+0009.110 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.112 (0) Looking for candidates to backup in: /Users/QuoinMacPro/Sites/evergreenteam.com/wp-content/uploads
+0009.113 (0) finding files: .DS_Store: adding to list (1)
+0009.114 (0) finding files: wpcf7_uploads: adding to list (2)
+0009.115 (0) finding files: mainwp: adding to list (3)
+0009.116 (0) finding files: dynamic-gen: adding to list (4)
+0009.117 (0) finding files: cfdb7_uploads: adding to list (5)
+0009.118 (0) finding files: 2019: adding to list (6)
+0009.119 (0) finding files: dynamik-gen: adding to list (7)
+0009.120 (0) finding files: 2020: adding to list (8)
+0009.121 (0) finding files: dynamic-uploads: adding to list (9)
+0009.121 (0) finding files: uag-plugin: adding to list (10)
+0009.122 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.174 (0) Total entities for the zip file: 16 directories, 1420 files (0 skipped as non-modified), 119.9 MB
+0009.189 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.202 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.215 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.228 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0009.241 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0009.243 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (33.6 MB, 1420 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0009.633 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: size is now: 33.70 MB
+0009.648 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 600 files added (on-disk size: 34474 KB)
+0009.660 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 700 files added (on-disk size: 34474 KB)
+0009.672 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 800 files added (on-disk size: 34474 KB)
+0009.684 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 900 files added (on-disk size: 34474 KB)
+0009.697 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 1000 files added (on-disk size: 34474 KB)
+0009.698 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (51.8 MB, 1420 files batched, 501 (1002) added so far); re-opening (prior size: 34474 KB)
+0010.474 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: size is now: 85.60 MB
+0010.491 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 1100 files added (on-disk size: 87663.6 KB)
+0010.504 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 1200 files added (on-disk size: 87663.6 KB)
+0010.516 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 1300 files added (on-disk size: 87663.6 KB)
+0010.529 (0) Zip: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: 1400 files added (on-disk size: 87663.6 KB)
+0011.257 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip.tmp: size is now: 120.20 MB
+0014.166 (0) Created uploads zip (0) - 123055.1 KB in 5 s (24404.1 KB/s) (sha1: d567e4e097d7c60d9e8c5ce10fbd7da675c89532, sha256: fdf0337f2d2027a982cdd88dfc91766a3b4cf6c4827e4be52a623eb0e6b64017)
+0014.170 (0) Beginning backup of other directories found in the content directory (index: 0)
+0014.171 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0014.172 (0) Looking for candidates to backup in: /Users/QuoinMacPro/Sites/evergreenteam.com/wp-content
+0014.173 (0) finding files: upgrade: skipping: excluded by options
+0014.174 (0) finding files: .DS_Store: adding to list (1)
+0014.175 (0) finding files: index.php: adding to list (2)
+0014.176 (0) finding files: cache: skipping: excluded by options
+0014.177 (0) finding files: wflogs: adding to list (3)
+0014.177 (0) finding files: plugins: skipping: this is the plugins directory
+0014.178 (0) finding files: uploads: skipping: this is the uploads directory
+0014.179 (0) finding files: updraft: skipping: this is the updraft directory
+0014.180 (0) finding files: advanced-cache.php: adding to list (4)
+0014.181 (0) finding files: w3tc-config: adding to list (5)
+0014.182 (0) finding files: themes: skipping: this is the themes directory
+0014.186 (0) Total entities for the zip file: 2 directories, 14 files (0 skipped as non-modified), 4.1 MB
+0014.585 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip.tmp: size is now: 2.00 MB
+0014.645 (0) Created others zip (0) - 2012.5 KB in 0.5 s (4362.3 KB/s) (sha1: 647c092449d25f8e5d5215c12c1d3b00b51a841a, sha256: bf353ef1b1cca32586ca7a812dee8d51123cb6eb757ff395d8f3ed08e55df87e)
+0014.652 (0) Saving backup status to database (elements: 8)
+0014.655 (0) Beginning creation of database dump (WordPress DB)
+0014.682 (0) Table wp_options: Total expected rows (approximate): 472
+0014.706 (0) Table wp_options: Total rows added: 468 in 0.02 seconds
+0014.708 (0) Table wp_options: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_options.table.gz - 18 KB)
+0014.713 (0) Table wp_users: Total expected rows (approximate): 8
+0014.719 (0) Table wp_users: Total rows added: 8 in 0.00 seconds
+0014.720 (0) Table wp_users: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_users.table.gz - 1 KB)
+0014.728 (0) Table wp_usermeta: Total expected rows (approximate): 191
+0014.739 (0) Table wp_usermeta: Total rows added: 191 in 0.01 seconds
+0014.741 (0) Table wp_usermeta: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_usermeta.table.gz - 4.6 KB)
+0014.748 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0014.752 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0014.754 (0) Table wp_commentmeta: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0014.760 (0) Table wp_comments: Total expected rows (approximate): 0
+0014.764 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0014.766 (0) Table wp_comments: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_comments.table.gz - 0.5 KB)
+0014.774 (0) Table wp_links: Total expected rows (approximate): 0
+0014.778 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0014.779 (0) Table wp_links: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_links.table.gz - 0.4 KB)
+0014.784 (0) Table wp_postmeta: Total expected rows (approximate): 21302
+0015.719 (0) Table wp_postmeta: Total rows added: 22723 in 0.93 seconds
+0015.722 (0) Table wp_postmeta: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_postmeta.table.gz - 551.9 KB)
+0015.729 (0) Table wp_posts: Total expected rows (approximate): 1239
+0016.037 (0) Table wp_posts: Total rows added: 1234 in 0.31 seconds
+0016.040 (0) Table wp_posts: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_posts.table.gz - 54.5 KB)
+0016.046 (0) Table wp_term_relationships: Total expected rows (approximate): 49
+0016.050 (0) Table wp_term_relationships: Total rows added: 49 in 0.00 seconds
+0016.051 (0) Table wp_term_relationships: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0016.057 (0) Table wp_term_taxonomy: Total expected rows (approximate): 9
+0016.061 (0) Table wp_term_taxonomy: Total rows added: 9 in 0.00 seconds
+0016.063 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0016.068 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0016.071 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0016.073 (0) Table wp_termmeta: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_termmeta.table.gz - 0.4 KB)
+0016.078 (0) Table wp_terms: Total expected rows (approximate): 9
+0016.083 (0) Table wp_terms: Total rows added: 9 in 0.00 seconds
+0016.084 (0) Table wp_terms: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_terms.table.gz - 0.5 KB)
+0016.090 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0016.095 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0016.096 (0) Table wp_yoast_seo_links: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0016.103 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 442
+0016.111 (0) Table wp_yoast_seo_meta: Total rows added: 442 in 0.01 seconds
+0016.113 (0) Table wp_yoast_seo_meta: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_yoast_seo_meta.table.gz - 1.4 KB)
+0016.120 (0) Table wp_db7_forms: Total expected rows (approximate): 42
+0016.129 (0) Table wp_db7_forms: Total rows added: 42 in 0.01 seconds
+0016.131 (0) Table wp_db7_forms: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_db7_forms.table.gz - 10.1 KB)
+0016.138 (0) Table wp_redirection_404: Total expected rows (approximate): 717
+0016.159 (0) Table wp_redirection_404: Total rows added: 708 in 0.02 seconds
+0016.161 (0) Table wp_redirection_404: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_404.table.gz - 15.8 KB)
+0016.166 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0016.170 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0016.172 (0) Table wp_redirection_groups: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+0016.177 (0) Table wp_redirection_items: Total expected rows (approximate): 10
+0016.182 (0) Table wp_redirection_items: Total rows added: 10 in 0.00 seconds
+0016.185 (0) Table wp_redirection_items: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_items.table.gz - 1.1 KB)
+0016.190 (0) Table wp_redirection_logs: Total expected rows (approximate): 14
+0016.194 (0) Table wp_redirection_logs: Total rows added: 14 in 0.00 seconds
+0016.196 (0) Table wp_redirection_logs: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_logs.table.gz - 1.5 KB)
+0016.202 (0) Table wp_w3tc_cdn_pathmap: Total expected rows (approximate): 0
+0016.209 (0) Table wp_w3tc_cdn_pathmap: Total rows added: 0 in 0.01 seconds
+0016.211 (0) Table wp_w3tc_cdn_pathmap: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_w3tc_cdn_pathmap.table.gz - 0.4 KB)
+0016.220 (0) Table wp_w3tc_cdn_queue: Total expected rows (approximate): 0
+0016.232 (0) Table wp_w3tc_cdn_queue: Total rows added: 0 in 0.01 seconds
+0016.234 (0) Table wp_w3tc_cdn_queue: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_w3tc_cdn_queue.table.gz - 0.4 KB)
+0016.241 (0) Table wp_wfblockediplog: Total expected rows (approximate): 96
+0016.248 (0) Table wp_wfblockediplog: Total rows added: 96 in 0.01 seconds
+0016.250 (0) Table wp_wfblockediplog: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfblockediplog.table.gz - 1.2 KB)
+0016.256 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0016.260 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0016.261 (0) Table wp_wfblocks7: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0016.267 (0) Table wp_wfconfig: Total expected rows (approximate): 251
+0016.317 (0) Table wp_wfconfig: Total rows added: 254 in 0.05 seconds
+0016.321 (0) Table wp_wfconfig: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfconfig.table.gz - 373.2 KB)
+0016.328 (0) Table wp_wfcrawlers: Total expected rows (approximate): 12
+0016.334 (0) Table wp_wfcrawlers: Total rows added: 12 in 0.00 seconds
+0016.336 (0) Table wp_wfcrawlers: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfcrawlers.table.gz - 0.7 KB)
+0016.342 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0016.346 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0016.347 (0) Table wp_wffilechanges: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0016.353 (0) Table wp_wffilemods: Total expected rows (approximate): 7084
+0016.773 (0) Table wp_wffilemods: Total rows added: 7113 in 0.42 seconds
+0016.775 (0) Table wp_wffilemods: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wffilemods.table.gz - 616.6 KB)
+0016.780 (0) Table wp_wfhits: Total expected rows (approximate): 363
+0016.800 (0) Table wp_wfhits: Total rows added: 363 in 0.02 seconds
+0016.802 (0) Table wp_wfhits: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfhits.table.gz - 10 KB)
+0016.807 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0016.812 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0016.813 (0) Table wp_wfhoover: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0016.819 (0) Table wp_wfissues: Total expected rows (approximate): 9
+0016.824 (0) Table wp_wfissues: Total rows added: 9 in 0.00 seconds
+0016.825 (0) Table wp_wfissues: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfissues.table.gz - 2.6 KB)
+0016.832 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 8733
+0017.045 (0) Table wp_wfknownfilelist: Total rows added: 8423 in 0.21 seconds
+0017.049 (0) Table wp_wfknownfilelist: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfknownfilelist.table.gz - 107.2 KB)
+0017.055 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0017.059 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0017.060 (0) Table wp_wflivetraffichuman: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0017.066 (0) Table wp_wflocs: Total expected rows (approximate): 1
+0017.071 (0) Table wp_wflocs: Total rows added: 1 in 0.00 seconds
+0017.073 (0) Table wp_wflocs: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wflocs.table.gz - 0.4 KB)
+0017.078 (0) Table wp_wflogins: Total expected rows (approximate): 363
+0017.096 (0) Table wp_wflogins: Total rows added: 363 in 0.02 seconds
+0017.098 (0) Table wp_wflogins: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wflogins.table.gz - 8.2 KB)
+0017.103 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0017.106 (0) Table wp_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0017.107 (0) Table wp_wfls_2fa_secrets: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0017.113 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0017.119 (0) Table wp_wfls_settings: Total rows added: 19 in 0.00 seconds
+0017.120 (0) Table wp_wfls_settings: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfls_settings.table.gz - 0.7 KB)
+0017.128 (0) Table wp_wfnotifications: Total expected rows (approximate): 6
+0017.134 (0) Table wp_wfnotifications: Total rows added: 6 in 0.00 seconds
+0017.135 (0) Table wp_wfnotifications: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfnotifications.table.gz - 0.7 KB)
+0017.143 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0017.147 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0017.148 (0) Table wp_wfpendingissues: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0017.155 (0) Table wp_wfreversecache: Total expected rows (approximate): 1
+0017.160 (0) Table wp_wfreversecache: Total rows added: 1 in 0.00 seconds
+0017.161 (0) Table wp_wfreversecache: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfreversecache.table.gz - 0.3 KB)
+0017.171 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0017.177 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0017.179 (0) Table wp_wfsnipcache: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0017.187 (0) Table wp_wfstatus: Total expected rows (approximate): 1000
+0017.215 (0) Table wp_wfstatus: Total rows added: 1000 in 0.03 seconds
+0017.217 (0) Table wp_wfstatus: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfstatus.table.gz - 15.7 KB)
+0017.225 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0017.229 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0017.230 (0) Table wp_wftrafficrates: finishing file (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0017.235 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_options.table.gz (1/42): adding to final database dump
+0017.243 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_users.table.gz (2/42): adding to final database dump
+0017.246 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_usermeta.table.gz (3/42): adding to final database dump
+0017.249 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_commentmeta.table.gz (4/42): adding to final database dump
+0017.250 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_comments.table.gz (5/42): adding to final database dump
+0017.252 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_links.table.gz (6/42): adding to final database dump
+0017.254 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_postmeta.table.gz (7/42): adding to final database dump
+0017.545 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_posts.table.gz (8/42): adding to final database dump
+0017.575 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_term_relationships.table.gz (9/42): adding to final database dump
+0017.577 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_term_taxonomy.table.gz (10/42): adding to final database dump
+0017.579 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_termmeta.table.gz (11/42): adding to final database dump
+0017.580 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_terms.table.gz (12/42): adding to final database dump
+0017.582 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_yoast_seo_links.table.gz (13/42): adding to final database dump
+0017.583 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_yoast_seo_meta.table.gz (14/42): adding to final database dump
+0017.585 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_db7_forms.table.gz (15/42): adding to final database dump
+0017.590 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_404.table.gz (16/42): adding to final database dump
+0017.600 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_groups.table.gz (17/42): adding to final database dump
+0017.602 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_items.table.gz (18/42): adding to final database dump
+0017.603 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_redirection_logs.table.gz (19/42): adding to final database dump
+0017.605 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_w3tc_cdn_pathmap.table.gz (20/42): adding to final database dump
+0017.606 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_w3tc_cdn_queue.table.gz (21/42): adding to final database dump
+0017.608 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfblockediplog.table.gz (22/42): adding to final database dump
+0017.609 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfblocks7.table.gz (23/42): adding to final database dump
+0017.611 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfconfig.table.gz (24/42): adding to final database dump
+0017.668 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfcrawlers.table.gz (25/42): adding to final database dump
+0017.671 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wffilechanges.table.gz (26/42): adding to final database dump
+0017.673 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wffilemods.table.gz (27/42): adding to final database dump
+0017.819 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfhits.table.gz (28/42): adding to final database dump
+0017.826 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfhoover.table.gz (29/42): adding to final database dump
+0017.828 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfissues.table.gz (30/42): adding to final database dump
+0017.830 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfknownfilelist.table.gz (31/42): adding to final database dump
+0017.887 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wflivetraffichuman.table.gz (32/42): adding to final database dump
+0017.891 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wflocs.table.gz (33/42): adding to final database dump
+0017.892 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wflogins.table.gz (34/42): adding to final database dump
+0017.898 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfls_2fa_secrets.table.gz (35/42): adding to final database dump
+0017.899 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfls_settings.table.gz (36/42): adding to final database dump
+0017.901 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfnotifications.table.gz (37/42): adding to final database dump
+0017.902 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfpendingissues.table.gz (38/42): adding to final database dump
+0017.903 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfreversecache.table.gz (39/42): adding to final database dump
+0017.904 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfsnipcache.table.gz (40/42): adding to final database dump
+0017.905 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wfstatus.table.gz (41/42): adding to final database dump
+0017.914 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db-table-wp_wftrafficrates.table.gz (42/42): adding to final database dump
+0017.918 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz: finished writing out complete database file (1784 KB)
+0017.992 (0) Total database tables backed up: 42 (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz, size: 1840793, sha1: 80431c42fc90b14e313dca19247dd7d78a4886b0, sha256: ca704da71ed6541d4c604c7cc051ac66d79e7f2045bfd666edebd4a998708efc)
+0018.000 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0018.001 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0018.002 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0018.004 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0018.004 (0) backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0018.005 (0) Saving backup history. Total backup size: 185.5 MB
+0018.009 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0018.014 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0018.016 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-668356e3bdf9f5b3f9666f81735ebfd7)
+0018.017 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0018.027 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0018.371 (0) Dropbox: quota usage: used=932873.4 MB, total=2111744 MB, available=1178870.6 MB
+0018.373 (0) Dropbox: Attempt to upload: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip to: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip
+0020.021 (0) Dropbox chunked upload: 4.2 % uploaded (AAAAAAAKyWfc7JyP-tziZA, 1048576, 5120 KB)
+0024.428 (0) Dropbox chunked upload: 24.9 % uploaded (AAAAAAAKyWfc7JyP-tziZA, 6291456, 10240 KB)
+0030.323 (0) Dropbox chunked upload: 66.4 % uploaded (AAAAAAAKyWfc7JyP-tziZA, 16777216, 10240 KB)
+0035.243 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAKyWfc7JyP-tziZA, 25250229, 10240 KB)
+0036.515 (0) Recording as successfully uploaded: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip
+0036.520 (0) Deleting local file: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip: OK
+0036.522 (0) Dropbox: File upload success (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-plugins.zip): 24658 KB in 18s (1358 KB/s)
+0036.950 (0) Dropbox: quota usage: used=932897.5 MB, total=2111744 MB, available=1178846.5 MB
+0036.954 (0) Dropbox: Attempt to upload: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip to: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip
+0044.391 (0) Dropbox chunked upload: 26.6 % uploaded (AAAAAAAKyWiGARG6BhV-Bg, 10485760, 10240 KB)
+0051.437 (0) Dropbox chunked upload: 53.2 % uploaded (AAAAAAAKyWiGARG6BhV-Bg, 20971520, 10240 KB)
+0060.249 (0) Dropbox chunked upload: 79.9 % uploaded (AAAAAAAKyWiGARG6BhV-Bg, 31457280, 10240 KB)
+0066.782 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAKyWiGARG6BhV-Bg, 39393648, 10240 KB)
+0069.054 (0) Recording as successfully uploaded: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip
+0069.063 (0) Deleting local file: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip: OK
+0069.064 (0) Dropbox: File upload success (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-themes.zip): 38470 KB in 32s (1198 KB/s)
+0070.028 (0) Dropbox: quota usage: used=932935.1 MB, total=2111744 MB, available=1178808.9 MB
+0070.031 (0) Dropbox: Attempt to upload: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip to: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip
+0083.965 (0) Dropbox chunked upload: 8.3 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 10485760, 10240 KB)
+0096.351 (0) Dropbox chunked upload: 16.6 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 20971520, 10240 KB)
+0103.358 (0) Dropbox chunked upload: 25 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 31457280, 10240 KB)
+0109.131 (0) Dropbox chunked upload: 33.3 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 41943040, 10240 KB)
+0116.941 (0) Dropbox chunked upload: 41.6 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 52428800, 10240 KB)
+0124.088 (0) Dropbox chunked upload: 49.9 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 62914560, 10240 KB)
+0129.958 (0) Dropbox chunked upload: 58.3 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 73400320, 10240 KB)
+0136.802 (0) Dropbox chunked upload: 66.6 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 83886080, 10240 KB)
+0142.651 (0) Dropbox chunked upload: 74.9 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 94371840, 10240 KB)
+0150.133 (0) Dropbox chunked upload: 83.2 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 104857600, 10240 KB)
+0156.557 (0) Dropbox chunked upload: 91.5 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 115343360, 10240 KB)
+0163.056 (0) Dropbox chunked upload: 99.9 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 125829120, 10240 KB)
+0163.582 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAKyWkDE_KSS1rVjw, 126008412, 10240 KB)
+0164.999 (0) Recording as successfully uploaded: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip
+0165.025 (0) Deleting local file: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip: OK
+0165.026 (0) Dropbox: File upload success (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-uploads.zip): 123055 KB in 94s (1295 KB/s)
+0165.266 (0) Dropbox: quota usage: used=933055.3 MB, total=2111744 MB, available=1178688.7 MB
+0165.268 (0) Dropbox: Attempt to upload: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip to: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip
+0168.279 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAKyWq7HVrO7T9-NQ, 2060823, 10240 KB)
+0171.698 (0) Recording as successfully uploaded: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip
+0171.704 (0) Deleting local file: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip: OK
+0171.705 (0) Dropbox: File upload success (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-others.zip): 2012 KB in 6s (312 KB/s)
+0172.022 (0) Dropbox: quota usage: used=933057.2 MB, total=2111744 MB, available=1178686.8 MB
+0172.025 (0) Dropbox: Attempt to upload: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz to: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz
+0174.662 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAKyWvL1-PpWiBK7g, 1840793, 10240 KB)
+0176.901 (0) Recording as successfully uploaded: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz
+0176.906 (0) Deleting local file: backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz: OK
+0176.907 (0) Dropbox: File upload success (backup_2020-04-16-1847_Evergreen_Renovations_amp_Roof_704ad676b45f-db.gz): 1797 KB in 4s (368 KB/s)
+0176.915 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0176.917 (0) Number of backup sets in history: 2; groups (db): 1
+0176.918 (0) Examining (for databases) backup set with group_id=0, nonce=704ad676b45f, datestamp=1587062869 (Apr 16 2020 18:47:49)
+0176.919 (0) This backup set is the backup set just made, so will not be deleted.
+0176.919 (0) Examining (for databases) backup set with group_id=0, nonce=8615cffb28a1, datestamp=1586970691 (Apr 15 2020 17:11:31)
+0176.919 (0) Number of backup sets in history: 2; groups (files): 1
+0176.920 (0) Examining (for files) backup set with nonce=704ad676b45f, datestamp=1587062869 (Apr 16 2020 18:47:49)
+0176.920 (0) This backup set is the backup set just made, so will not be deleted.
+0176.921 (0) This backup set is the backup set just made, so will not be deleted.
+0176.921 (0) This backup set is the backup set just made, so will not be deleted.
+0176.921 (0) This backup set is the backup set just made, so will not be deleted.
+0176.922 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0176.923 (0) Examining (for files) backup set with nonce=8615cffb28a1, datestamp=1586970691 (Apr 15 2020 17:11:31)
+0176.923 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0176.924 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0176.927 (0) Resume backup (704ad676b45f, 0): finish run
+0176.932 (0) Decremented the semaphore (fd) by 1
+0176.935 (0) Semaphore (fd) unlocked
+0176.936 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0176.945 (0) No email will/can be sent - the user has not configured an email address.
+0176.952 (0) The backup apparently succeeded and is now complete

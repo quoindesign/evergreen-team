@@ -1002,7 +1002,9 @@
           padding: 50px 0;
           background-color: #000;
         }
+        .contactus-section {
 
+        }
         .contactus-section .contactus {
           padding: 50px 0;
           background-color: #FF8044;
@@ -1016,6 +1018,11 @@
         .contact-form p{
           font-size: 24px;
         }
+        .contactus-section.dashed .contactus {
+          background: none;
+          border: 4px dashed #FF5000;
+        }
+
         @media (max-width: 991px) {
           .contactus-section .contactus h2 {
             font-size: 36px;
@@ -2001,4 +2008,365 @@
   font-size: 16px;
   color: #222222;
 }
+
+
+/* roofing page */
+
+.offers-section {
+background: #424242;
+color: white;
+padding-top: 4em;
+padding-bottom: 2em;
+}
+.offers-section h2 {
+  text-align:right;
+}
+
+
+.offers-section .container {
+
+}
+.offers-section .container .col-lg-10 .row {
+
+  justify-content: space-between;
+  max-width: 900px;
+
+}
+.offers.col-lg-4 {
+  border: 6px dashed #ff5000;
+  /* margin-right: 1em; */
+  flex: 0 23.333%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.offers.col-lg-4 div {
+  /* border: 1px solid lightgray; */
+}
+.offers .offer-line1 {
+  font-size: 54px;
+text-transform: uppercase;
+line-height: .9;
+letter-spacing: -.01em;
+font-weight: bold;
+}
+.offers .offer-line1 .line2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+.offers.col-lg-4 p {
+  font-size: 24px;
+  line-height: 0.9;
+}
+.offers.col-lg-4 a {
+  color: white;
+  display:inline-block;
+  padding: 1.5em;
+}
+.offers.col-lg-4:hover {
+  background: rgba(255,255,255,.2);
+  transition: background .25s ease-in-out;
+}
+
+.offers.col-lg-4 .offer-link a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #FF5000;
+  display: inline;
+  padding: 0 1.5em 0 0;
+}
+@media (max-width:500px) {
+
+}
+
+/* Roofing page .process-section */
+.process-section {
+  background-size: cover;
+}
+.process-section > .container {
+  padding: 3em;
+}
+.process-section .col-md-5 {
+  padding: 0 2em;
+}
+.process-section .col-md-5.pb-5 {
+  padding: 3em 2em 3em 1em;
+  background-color: #424242;
+  color: white;
+
+}
+.process-section .col-md-5.pb-5 .col-md-8 {
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+.process-section h2 {
+  font-weight: 600;
+  margin-bottom: 1em;
+  margin-top: 0;
+  text-align: center;
+}
+.process-section .col-md-8 h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+}
+.process-section .col-md-8 a.btn.btn-red {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+.process-section p {
+line-height: 1;
+}
+
+/* master_elite-section */
+.master_elite-section {
+  background-color: #F3EDEA;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.master_elite-section .col-md-4.offset-md-1.pb-lg-0.pb-5 {
+  padding-right: 10%;
+}
+.master_elite-section .col-md-4.offset-md-1.pb-lg-0.pb-5 img {
+  margin-top: 2em;
+}
+.master_elite-section h2 {
+  font-weight: bold;
+
+}
+
+/*  Roofing page customer_service-Section */
+
+.customer_service-mobile-image {
+    display: none;
+}
+section.customer_service-section {
+    background-size: cover;
+}
+.customer_service-section .col-md-10.offset-md-1.pb-5 {
+    background: rgba(255,255,255,.9);
+    padding-top: 3em;
+    margin-top: 20em;
+}
+
+.customer_service-section h2 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.customer_service-section .col-md-5 p strong {
+  color: #999;
+  font-weight: normal;
+  font-size: 18px;
+}
+.customer_service-section .mfr_wrapper {
+  display: flex;
+  justify-content: space-around;
+
+}
+.customer_service-section .mfr_logo img {
+  max-height: 40px;
+max-width: 108px;
+}
+
+/* Roofing page testimonials-section */
+
+.testimonial-section.white {
+
+}
+.testimonial-section.white .testimonial-top-bg::before,
+.testimonial-section.white .testimonial-top-bg::after,
+.testimonial-section.white .testimonial-btm-bg:after,
+.testimonial-section.white .testimonial-btm-bg:before,
+.testimonial-section.white .testimonial {
+  background: none;
+
+}
+.testimonial-section.white .testimonial h3,
+.testimonial-section.white .testimonial p {
+color: #424242;
+}
+
+.testimonial-section.white .testimonial .carousel-control-next-icon {
+  background-image: url("../images/greyrightarrow.svg") !important;
+  /* height: 40px;
+  width: 40px; */
+}
+.testimonial-section.white .testimonial .carousel-control-prev-icon {
+  background-image: url("../images/greyleftarrow.svg") !important;
+  /* height: 40px;
+  width: 40px; */
+}
+
+.testimonial-section.white .testimonial .carousel-caption .white-star img {
+  height: 24px;
+  top: 10px;
+  position: relative;
+}
+.financing-section {
+  padding: 3em 0;
+  background-color: #F3EDEA;
+  background-image: url('../images/Section-Continue-Arrow.png');
+  background-repeat: no-repeat;
+  background-position: 25% top;
+  background-size: 43px;
+}
+
+.financing-section h2 {
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .offers-section {
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+  .offers-section h2 {
+    text-align:center;
+    margin-bottom: .75em;
+  }
+.offers.col-lg-4 {
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 0 0 63%;
+}
+.offers .offer-line1 {
+  font-size: 42px;
+  }
+  .offers .line2 {
+    white-space: nowrap;
+  }
+.offers.col-lg-4 p {
+  font-size: 18px;
+  line-height:1.2em;
+}
+.offers.col-lg-4 .offer-link a {
+
+    display: block;
+    margin-left: 1.5em;
+  }
+  .offers-section .restrictions p {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+.process-section .col-md-5.pb-5 {
+  padding: 3em 2em;
+}
+.process-section {
+  background: #424242;
+  background-image: none !important;
+}
+.process-section .col-md-2.offset-md-1 {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 1em;
+
+}
+.process-section .col-md-2.offset-md-1 img {
+  max-width: 48px;
+  max-height: 36px;
+
+}
+
+
+.process-section .col-md-5.pb-5 .col-md-8 {
+  padding-right: initial;
+  text-align: center;
+}
+.customer_service-mobile-image {
+    display: inherit;
+}
+.customer_service-section {
+  background-image: none !important;
+}
+.customer_service-section .col-md-10.offset-md-1.pb-5 {
+  margin-top: 0;
+}
+.customer_service-section .col-md-5.offset-md-1 {
+  margin-bottom: 2em;
+}
+.customer_service-section .mfr_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.customer_service-section .mfr_logo {
+}
+.financing-section .financing_icon img {
+  max-height: 80px;
+  margin-bottom: 1em;
+}
+
+}
+/* Roofing Offer Page */
+.offer-section {
+  background-color: #424242;
+  color: white;
+
+  padding-bottom: 2em;
+  padding-top: 10em;
+  background-image: url(../images/roof-shadow-2.gif) no-repeat bottom left;
+}
+.offer-section > .col-md-3 {
+  text-align: right;
+}
+.offer-section h1 {
+  color: white;
+  text-align: right;
+}
+.offer-section h1 {
+  font-size: 54px !important;
+text-transform: uppercase;
+line-height: .9;
+letter-spacing: -.01em;
+font-weight: bold;
+
+}
+.offer-section h1 .line2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+.offer-section h3 {
+  font-size: 24px;
+  line-height: 0.9;
+  text-align: right;
+}
+.offer-section p {
+
+  text-align: right;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.offer-section p.contact-desc-text,
+.offer-section p.call-text {
+  margin: 0;
+  text-align: center;
+
+}
+.offer-section p.contact-desc-text {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+  .offer-section {
+    padding-top: 4em;
+  }
+
+  .offer-section h1,
+  .offer-section h3,
+  .offer-section p {
+    text-align:left;
+    margin-left: 0;
+  }
+}
+
+
+
       /*# sourceMappingURL=abovethefold.css.map */
